@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: ##212529;
+  color: #212529;
   text-align: left;
   background-color: #000000;
 }
@@ -4903,7 +4903,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .alert-warning {
   color: #856404;
-  background-color: #0000003cd;
+  background-color: #000000;
   border-color: #ffeeba;
 }
 .alert-warning hr {
