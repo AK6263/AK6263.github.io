@@ -2,8 +2,19 @@
     * Start Bootstrap - Resume v6.0.1 (https://startbootstrap.com/template-overviews/resume)
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-    */
-    (function ($) {
+*/
+
+    // ACCORDION
+function toggleIcon(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find(".more-less")
+        .toggleClass('glyphicon-plus glyphicon-minus');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+$('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+(function ($) {
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
